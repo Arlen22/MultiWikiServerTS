@@ -1,0 +1,11 @@
+{
+  "name": "multiwikiserverts",
+  "version": "1.0.0",
+  "description": "This is an attempt at setting up a robust HTTP server for the purpose of serving TiddlyWiki content in a multiwiki format.",
+
+  "scripts": {
+
+  },
+  "author": "Arlen22 <arlen22@github.com>",
+  "license": "ISC"
+}
