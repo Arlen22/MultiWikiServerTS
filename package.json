@@ -2,10 +2,13 @@
   "name": "multiwikiserverts",
   "version": "1.0.0",
   "description": "This is an attempt at setting up a robust HTTP server for the purpose of serving TiddlyWiki content in a multiwiki format.",
-
-  "scripts": {
-
-  },
+  "scripts": {},
   "author": "Arlen22 <arlen22@github.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.12",
+    "@hapi/inert": "^7.1.0",
+    "@types/node": "^22.10.6",
+    "fastify": "^5.2.1"
+  }
 }

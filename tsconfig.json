@@ -2,11 +2,12 @@
   "compilerOptions": {
     "target": "ES2017",
     "module": "ES2015",
+    "moduleResolution": "node10",
     "outDir": "./dist",
     "rootDir": "./server",
     "strict": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
   },
   "include": ["server/**/*.ts"],
 }
